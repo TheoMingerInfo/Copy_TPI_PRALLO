@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm uninstall *)",
+      "Bash(grep -rn \"auth\\\\.user\\\\|{ auth,\" app/controllers --include=\"*.ts\" -l)",
+      "Bash(ls \"c:/Users/pl67pqq/Desktop/TPI/\")",
+      "Read(//c/Users/pl67pqq/Desktop/TPI/**)"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+# Dépendances du projet
+node_modules/
+
+# Fichiers de configuration sensibles
+.env

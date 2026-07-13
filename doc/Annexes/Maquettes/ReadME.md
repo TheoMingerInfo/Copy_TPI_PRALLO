@@ -1,0 +1,1 @@
+## Si un dossier est vide, c'est qu'il n'y pas de changement avec l'état précedent. Rappel des état -> 1.Préparation 2.(Repérage) 3.Vote 4.Répartition 5.Publication

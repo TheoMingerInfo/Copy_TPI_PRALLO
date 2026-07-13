@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-Content 'c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\doc\\\\TPI_Prallo_project_US.md' -TotalCount 200 | Out-String\")",
+      "Bash(powershell -Command \"Get-Content 'c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\doc\\\\TPI_Prallo_project_US.md' | Select-Object -Skip 0 -First 400\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\backend\")",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\\" -Recurse -Depth 2 | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\\",\"\"\\) })",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\backend\\\\PRALLO_api\" -Recurse -Depth 3 | Where-Object { !$_.FullName.Contains\\(\"node_modules\"\\) } | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\backend\\\\PRALLO_api\\\\\",\"\"\\) })",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\frontend\\\\PRALLO_front\\\\src\" -Recurse -Depth 3 | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\frontend\\\\PRALLO_front\\\\src\\\\\",\"\"\\) })",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\backend\\\\PRALLO_api\\\\app\" -Recurse | Where-Object { !$_.PSIsContainer } | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\Users\\\\pl67pqq\\\\Desktop\\\\TPI\\\\src\\\\backend\\\\PRALLO_api\\\\app\\\\\",\"\"\\) })"
+    ]
+  }
+}
