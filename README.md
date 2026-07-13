@@ -1,3 +1,7 @@
+# Ceci est une copie de mon travail de CFC. Le vrai dossier contient des données sensibles, j'ai donc décidé de créer une copie sans les fichiers problématique, les commits git ne sont donc pas pris en compte
+
+
+
 # PRALLO — Project Allocator ETML
 
 Application web de gestion et répartition de projets de fin d'année pour l'ETML.
